@@ -12,6 +12,7 @@ namespace GitBranchingPractice
         public string Manufacturer { get; set; }
         public int Year { get; set; }
         public string Color { get; set; }
+        public int TopSpeed { get; set; }
 
         public virtual void Go()
         {
