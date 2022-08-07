@@ -1,2 +1,3 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Is this hand-shucked?");
+Console.WriteLine("I'll be quiet. I'll be peace.");
+Console.WriteLine("another change in the seventh branch");
