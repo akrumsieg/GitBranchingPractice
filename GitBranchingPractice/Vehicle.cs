@@ -10,15 +10,16 @@ namespace GitBranchingPractice
     {
         public string Name { get; set; }
         public string Manufacturer { get; set; }
+        public int Year { get; set; }
 
         public virtual void Go()
         {
-            Console.WriteLine("Vehicle is going");
+            Console.WriteLine($"{Name} is going");
         }
 
         public virtual void Stop()
         {
-            Console.WriteLine("Vehicle has stopped");
+            Console.WriteLine($"{Name} has stopped");
         }
     }
 }
