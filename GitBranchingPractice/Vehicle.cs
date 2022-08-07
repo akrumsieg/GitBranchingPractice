@@ -9,6 +9,7 @@ namespace GitBranchingPractice
     internal abstract class Vehicle
     {
         public string Name { get; set; }
+        public string Manufacturer { get; set; }
 
         public virtual void Go()
         {
